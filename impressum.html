@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#080b0f">
+  <meta name="description" content="Impressum und rechtliche Angaben zu LEANLEGAL – Andreas Lenzenweger-Kraml.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Impressum — LEANLEGAL</title>
+</head>
+<body class="legal-page">
+  <div class="noise" aria-hidden="true"></div>
+  <main class="legal-container">
+    <a class="back" href="index.html">← Zurück zu LEANLEGAL</a>
+    <div class="section-number">LEGAL INFORMATION</div>
+    <h1>Impressum</h1>
+
+    <h2>Medieninhaber und Diensteanbieter</h2>
+    <p>
+      <strong>LEANLEGAL – Andreas Lenzenweger-Kraml e.U.</strong><br>
+      Winterweg 1<br>
+      5201 Seekirchen am Wallersee<br>
+      Österreich
+    </p>
+    <p>E-Mail: <a data-email-link href="mailto:office@leanlegal.at"><span data-email-text>office@leanlegal.at</span></a></p>
+    <p>UID-Nummer: ATU77680902</p>
+    <!-- VOR LIVE-SCHALTUNG PRÜFEN: UID auf aktuelle Gültigkeit prüfen. -->
+    <!-- OFFEN: Falls im Firmenbuch eingetragen, Firmenbuchnummer und Firmenbuchgericht aus amtlichem Auszug ergänzen. Auch den Firmenwortlaut einschließlich 'e.U.' prüfen. -->
+
+    <h2>Unternehmensgegenstand</h2>
+    <p>
+      Strategische und operative Dienstleistungen an der Schnittstelle von
+      Unternehmensorganisation, Legal Operations, Governance, Daten, Technologie
+      und Transformation – jeweils im Rahmen der bestehenden berufs- und
+      gewerberechtlichen Befugnisse.
+    </p>
+
+    <h2>Mitgliedschaften und Aufsicht</h2>
+    <p>
+      Mitglied der Wirtschaftskammer Salzburg.<br>
+      Zuständige Gewerbebehörde: Bezirkshauptmannschaft Salzburg-Umgebung.
+    </p>
+    <p>
+      Anwendbare Rechtsvorschriften sind insbesondere über das
+      <a href="https://www.ris.bka.gv.at/" target="_blank" rel="noopener noreferrer">Rechtsinformationssystem des Bundes (RIS)</a>
+      abrufbar.
+    </p>
+    <!-- OFFEN: GISA-Zahl, exakte Gewerbeberechtigung(en) und zuständige(n) WKO-Fachorganisation(en) anhand amtlicher bzw. WKO-Daten ergänzen. https://www.gisa.gv.at/ -->
+
+    <h2>Berufsrechtlicher Hinweis</h2>
+    <p>
+      LEANLEGAL ist keine Rechtsanwaltskanzlei. Leistungen werden ausschließlich
+      im Rahmen der jeweils anwendbaren gesetzlichen und gewerberechtlichen
+      Befugnisse erbracht. Soweit anwaltliche, notarielle, steuerliche oder
+      sonstige Vorbehaltsleistungen erforderlich sind, erfolgt die Zusammenarbeit
+      mit entsprechend befugten Berufsträgern.
+    </p>
+
+    <h2>Medienrechtliche Angaben</h2>
+    <p>
+      Grundlegende Richtung: Information über Leistungen, Arbeitsweise und
+      fachliche Themen von LEANLEGAL.
+    </p>
+
+    <h2>Haftung für Inhalte und Links</h2>
+    <p>
+      Die Inhalte dieser Website dienen der allgemeinen Information und stellen
+      keine auf einen konkreten Einzelfall bezogene Rechts-, Steuer- oder sonstige
+      Fachberatung dar. Trotz sorgfältiger Erstellung wird keine Gewähr für
+      Vollständigkeit, Richtigkeit und Aktualität übernommen. Für Inhalte
+      externer Websites, auf die verlinkt wird, sind die jeweiligen Betreiber
+      verantwortlich. Gesetzliche Haftungsbestimmungen bleiben unberührt.
+    </p>
+  </main>
+  <script src="config.js"></script>
+  <script>
+    const c = window.LEANLEGAL_CONFIG || {};
+    const e = c.contactEmail || 'office@leanlegal.at';
+    document.querySelectorAll('[data-email-text]').forEach(x => x.textContent = e);
+    document.querySelectorAll('[data-email-link]').forEach(x => x.href = 'mailto:' + e);
+  </script>
+</body>
+</html>
